@@ -1,0 +1,12 @@
+# Runtime dependencies for the AI Fintech Smart System chatbot.
+#
+# TensorFlow ships Keras, which provides the Sequential model and layers used
+# by train_chatbot.ipynb and the inference wrapper in src/finbot/model.py.
+tensorflow==2.15.0
+keras==2.15.0
+
+# Tokenization and WordNet lemmatization of user messages and training patterns.
+nltk==3.9.1
+
+# Bag-of-words vectors and model input/output arrays.
+numpy==1.26.4
