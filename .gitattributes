@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Treat model weights and pickled vocab/classes as binary so git does not
+# attempt end-of-line normalization or textual diffs on them.
+*.h5   binary
+*.pkl  binary
+*.pk1  binary
